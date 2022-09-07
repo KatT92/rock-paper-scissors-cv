@@ -1,6 +1,7 @@
 # rock-paper-scissors
 Rock paper scissors project
 
+
 ```manual_rps.py``` a manual game of rps that takes a user input from the terminal, gets a random choice from the computer and prints an outcome.
 
 ```RPS-Template.py``` is a pre-made template that takes the model from ```keras_model.h5``` and ```labels.txt``` and an incming image from the camera, and returns the probability that the image is 'rock', 'paper', 'scissors' or 'nothing'.
@@ -19,9 +20,9 @@ I downloaded conda as well as opencv-python, tensorflow, and ipykernel using pip
 ## Manual RPS game
 I created this game using python in VSCode and running it in the terminal.
 
-    - I made functions for the user choice, computer choice, deciding the winner and a function to start the game. the game can be started by typing ```manual_rps.py``` in the terminal.
-    - For the user choice, I added an additional while statement to make sure the user input was valid, as this needs to be either 'rock', 'paper' or 'scissors' for the game to work.
-    - I decided to use arrays for the user choice and computer choice, and then find the index to cut down on repetition of conditions in the if-else statements. I also added a condition in case something went wrong which has been useful for bug testing.
+- I made functions for the user choice, computer choice, deciding the winner and a function to start the game. the game can be started by typing ```manual_rps.py``` in the terminal.
+- For the user choice, I added an additional while statement to make sure the user input was valid, as this needs to be either 'rock', 'paper' or 'scissors' for the game to work.
+- I decided to use arrays for the user choice and computer choice, and then find the index to cut down on repetition of conditions in the if-else statements. I also added a condition in case something went wrong which has been useful for bug testing.
 
 ## camera_rps.py
 
